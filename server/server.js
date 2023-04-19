@@ -7,5 +7,5 @@ app.use(express.static('public'));
 app.get('/', (req, res) => res.send('this will be the homepage!'));
 
 app.listen(PORT, () =>
-  console.log(`Example app listening at http://localhost:${PORT}`)
+  console.log(`Now listening at http://localhost:${PORT}`)
 );

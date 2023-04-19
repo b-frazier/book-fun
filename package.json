@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/b-frazier/book-fun/issues"
   },
-  "homepage": "https://github.com/b-frazier/book-fun#readme"
+  "homepage": "https://github.com/b-frazier/book-fun#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

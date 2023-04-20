@@ -23,6 +23,10 @@ const userSchema = new Schema({
   },
   bookcases: [
     {
+      bookcaseName: {
+        type: String,
+        required: true,
+      },
       savedBooks: [bookSchema],
     },
   ],

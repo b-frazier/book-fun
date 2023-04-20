@@ -21,9 +21,11 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
-  bookcase: {
-    savedBooks: [bookSchema],
-  },
+  bookcases: [
+    {
+      savedBooks: [bookSchema],
+    },
+  ],
 });
 
 const User = model('User', userSchema);
